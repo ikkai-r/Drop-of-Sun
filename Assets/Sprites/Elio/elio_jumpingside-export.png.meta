@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 949a5a96c13967e479ed63575e51acda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9188172244885538105
+    second: elio_jumpingside-export_0
+  - first:
+      213: -3292665134274841460
+    second: elio_jumpingside-export_1
+  - first:
+      213: -5545812771155482567
+    second: elio_jumpingside-export_2
+  - first:
+      213: -5669360089979681613
+    second: elio_jumpingside-export_3
+  - first:
+      213: -8437436627902013904
+    second: elio_jumpingside-export_4
+  - first:
+      213: -3048655405620849442
+    second: elio_jumpingside-export_5
+  - first:
+      213: -6327035713804588714
+    second: elio_jumpingside-export_6
+  - first:
+      213: -9000600538668984187
+    second: elio_jumpingside-export_7
+  - first:
+      213: 7038726083155888592
+    second: elio_jumpingside-export_8
+  - first:
+      213: -380977336702747815
+    second: elio_jumpingside-export_9
+  - first:
+      213: 7322986292823792682
+    second: elio_jumpingside-export_10
+  - first:
+      213: 8534899420247700591
+    second: elio_jumpingside-export_11
+  - first:
+      213: 1651400973609666629
+    second: elio_jumpingside-export_12
+  - first:
+      213: -6010482546474888452
+    second: elio_jumpingside-export_13
+  - first:
+      213: 2409226100996340938
+    second: elio_jumpingside-export_14
+  - first:
+      213: 1404889205228610752
+    second: elio_jumpingside-export_15
+  - first:
+      213: 6576960288625987703
+    second: elio_jumpingside-export_16
+  - first:
+      213: -2400964579728316808
+    second: elio_jumpingside-export_17
+  - first:
+      213: -443767562078616073
+    second: elio_jumpingside-export_18
+  - first:
+      213: 5231817100841468883
+    second: elio_jumpingside-export_19
+  - first:
+      213: -3105156406935053771
+    second: elio_jumpingside-export_20
+  - first:
+      213: 3561531365051893208
+    second: elio_jumpingside-export_21
+  - first:
+      213: 5201291214553039028
+    second: elio_jumpingside-export_22
+  - first:
+      213: 5953333469808095839
+    second: elio_jumpingside-export_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elio_jumpingside_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 49
+        width: 188
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d988c174149ea160800000000000000
+      internalID: 7038726083155888592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elio_jumpingside_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 51
+        width: 189
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc7c7dcf5a4f6120800000000000000
+      internalID: 2409226100996340938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elio_jumpingside_3
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 49
+        width: 187
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4ae6ae94b2f7310800000000000000
+      internalID: 1404889205228610752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elio_jumpingside_4
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 49
+        width: 193
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7701769498e064b50800000000000000
+      internalID: 6576960288625987703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elio_jumpingside_6
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 49
+        width: 187
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f58673e0cb67d9f0800000000000000
+      internalID: -443767562078616073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elio_jumpingside_7
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 49
+        width: 194
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d348711fe52b9840800000000000000
+      internalID: 5231817100841468883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elio_jumpingside_8
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 39
+        width: 207
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b04bc05dc2be2840800000000000000
+      internalID: 5201291214553039028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elio_jumpingside_5
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 49
+        width: 217
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52fa59af3d7e9250800000000000000
+      internalID: 5953333469808095839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ac40e19f51247894f9115d9b2fc597dc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      elio_jumpingside_1: 7038726083155888592
+      elio_jumpingside_2: 2409226100996340938
+      elio_jumpingside_3: 1404889205228610752
+      elio_jumpingside_4: 6576960288625987703
+      elio_jumpingside_5: 5953333469808095839
+      elio_jumpingside_6: -443767562078616073
+      elio_jumpingside_7: 5231817100841468883
+      elio_jumpingside_8: 5201291214553039028
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
