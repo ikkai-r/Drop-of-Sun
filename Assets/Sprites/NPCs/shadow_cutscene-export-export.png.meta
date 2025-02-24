@@ -1,7 +1,16 @@
 fileFormatVersion: 2
-guid: 7440854ebec2d98419374f9dff4ec466
+guid: 72ac945d31dbda042a04807dc5a33292
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6792826620851452354
+    second: shadow_cutscene-export-export_0
+  - first:
+      213: -5610252540394593446
+    second: shadow_cutscene-export-export_1
+  - first:
+      213: -5186608028941157470
+    second: shadow_cutscene-export-export_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -34,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +78,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -95,7 +104,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -108,7 +117,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -123,106 +132,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: elio_idle_2_0
+      name: shadow_cutscene-export-export_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 3200
-        height: 3200
+        y: 19
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e9dfd34004cf488458a9ba375b1d7f25
-      internalID: 1330604940
+      spriteID: e360553ad280bb1a0800000000000000
+      internalID: -6792826620851452354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elio_idle_2_1
+      name: shadow_cutscene-export-export_1
       rect:
         serializedVersion: 2
-        x: 3200
-        y: 0
-        width: 3200
-        height: 3200
+        x: 19
+        y: 19
+        width: 302
+        height: 282
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e6bf207f5d38a8d4b8502ede94cb6db7
-      internalID: -1737902750
+      spriteID: a532c85f9016422b0800000000000000
+      internalID: -5610252540394593446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elio_idle_2_2
+      name: shadow_cutscene-export-export_2
       rect:
         serializedVersion: 2
-        x: 6400
-        y: 0
-        width: 3200
-        height: 3200
+        x: 329
+        y: 19
+        width: 311
+        height: 282
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7daf5e5f293cda944b9a27c5d699d5e7
-      internalID: -2054477980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elio_idle_2_3
-      rect:
-        serializedVersion: 2
-        x: 9600
-        y: 0
-        width: 3200
-        height: 3200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c41ed877ebb4af343b475a4e3b9226f2
-      internalID: 963174726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elio_idle_2_4
-      rect:
-        serializedVersion: 2
-        x: 12800
-        y: 0
-        width: 3200
-        height: 3200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0bc8b69e005b09449a423422485fe5f
-      internalID: 1760848921
+      spriteID: 2abf5cd3a777508b0800000000000000
+      internalID: -5186608028941157470
       vertices: []
       indices: 
       edges: []
@@ -230,19 +197,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      elio_idle_2_0: 1330604940
-      elio_idle_2_1: -1737902750
-      elio_idle_2_2: -2054477980
-      elio_idle_2_3: 963174726
-      elio_idle_2_4: 1760848921
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

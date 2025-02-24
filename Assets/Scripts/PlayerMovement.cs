@@ -45,7 +45,8 @@ public class PlayerMovement : MonoBehaviour
             isWalking = false;
         }
 
-        if (grounded && !isJumping && !isCharging)
+        // if (grounded && !isJumping && !isCharging)
+        if (!isCharging)
         {
             rb.velocity = new Vector2(horizontalInput * movementSpeed, rb.velocity.y);
         }
@@ -89,15 +90,15 @@ public class PlayerMovement : MonoBehaviour
                     grounded = false;
                     jumpPressure = jumpPressure + minJump;
 
-                    rb.velocity = new Vector2(rb.velocity.x * 10f, jumpPressure);
+                    rb.velocity = new Vector2(rb.velocity.x, jumpPressure);
 
                     jumpPressure = 0f;
                 }
             }
         }
 
-        //anim parameters
-        anim.SetBool("isWalking", horizontalInput != 0);
+      //anim parameters
+      anim.SetBool("isWalking", horizontalInput != 0);
       anim.SetBool("grounded", grounded);
       anim.SetBool("isJumping", isJumping);
       anim.SetBool("isCharging", isCharging);
