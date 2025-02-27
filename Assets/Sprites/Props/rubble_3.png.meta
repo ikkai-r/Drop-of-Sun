@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 72ac945d31dbda042a04807dc5a33292
+guid: 0139e21ce40ef1e4aa997a4ca3c11261
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6792826620851452354
-    second: shadow_cutscene-export-export_0
+      213: -6468982782419028047
+    second: rubble_3_0
   - first:
-      213: -5610252540394593446
-    second: shadow_cutscene-export-export_1
+      213: 4441938257183488355
+    second: rubble_3_1
   - first:
-      213: -5186608028941157470
-    second: shadow_cutscene-export-export_2
+      213: 6814431652745415497
+    second: rubble_3_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,64 +132,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shadow_cutscene-export-export_0
+      name: rubble_3_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 19
-        width: 11
-        height: 12
+        y: 0
+        width: 320
+        height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e360553ad280bb1a0800000000000000
-      internalID: -6792826620851452354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shadow_cutscene-export-export_1
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 19
-        width: 302
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a532c85f9016422b0800000000000000
-      internalID: -5610252540394593446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shadow_cutscene-export-export_2
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 19
-        width: 311
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2abf5cd3a777508b0800000000000000
-      internalID: -5186608028941157470
+      spriteID: 369b3ad7f4fe4ad30800000000000000
+      internalID: 4441938257183488355
       vertices: []
       indices: 
       edges: []
@@ -197,7 +155,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0175b63f41f74ae4eab5088eafc6039c
     internalID: 0
     vertices: []
     indices: 
@@ -205,9 +163,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      shadow_cutscene-export-export_0: -6792826620851452354
-      shadow_cutscene-export-export_1: -5610252540394593446
-      shadow_cutscene-export-export_2: -5186608028941157470
+      rubble_3_1: 4441938257183488355
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 72ac945d31dbda042a04807dc5a33292
+guid: 1305002bea5ce2540a6e46a6a57f12c7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6792826620851452354
-    second: shadow_cutscene-export-export_0
-  - first:
-      213: -5610252540394593446
-    second: shadow_cutscene-export-export_1
-  - first:
-      213: -5186608028941157470
-    second: shadow_cutscene-export-export_2
+      213: 2341893356192708991
+    second: pipe_spritesheet-export_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 13
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,10 +72,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,64 +126,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shadow_cutscene-export-export_0
+      name: pipe_spritesheet-export_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 19
-        width: 11
-        height: 12
+        y: 0
+        width: 150
+        height: 500
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e360553ad280bb1a0800000000000000
-      internalID: -6792826620851452354
+      spriteID: f79b6bd7993108020800000000000000
+      internalID: 2341893356192708991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadow_cutscene-export-export_1
+      name: pipe_spritesheet-export_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 19
-        width: 302
-        height: 282
+        x: 150
+        y: 0
+        width: 150
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a532c85f9016422b0800000000000000
-      internalID: -5610252540394593446
+      spriteID: 84f850f3b2732a346abded9e29fb44b9
+      internalID: 1128139935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shadow_cutscene-export-export_2
+      name: pipe_spritesheet-export_2
       rect:
         serializedVersion: 2
-        x: 329
-        y: 19
-        width: 311
-        height: 282
+        x: 300
+        y: 0
+        width: 150
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2abf5cd3a777508b0800000000000000
-      internalID: -5186608028941157470
+      spriteID: deb74867b19e0ce4683e9ee84b514d5d
+      internalID: -1456314808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipe_spritesheet-export_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfa9371b07994f459b20922dfc51d9f
+      internalID: -1719901647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipe_spritesheet-export_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c1fbab658a01e43a2db0d25f249952
+      internalID: -1438932033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipe_spritesheet-export_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 150
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dbbd4501924e7438137ea3fb53401b
+      internalID: 1466129422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipe_spritesheet-export_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 150
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2245d3559ff1cf4eaf2ad47b6bd56ef
+      internalID: -25749868
       vertices: []
       indices: 
       edges: []
@@ -197,7 +275,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e52f10ce8f515484ea023fdde9435ac2
     internalID: 0
     vertices: []
     indices: 
@@ -205,9 +283,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      shadow_cutscene-export-export_0: -6792826620851452354
-      shadow_cutscene-export-export_1: -5610252540394593446
-      shadow_cutscene-export-export_2: -5186608028941157470
+      pipe_spritesheet-export_0: 2341893356192708991
+      pipe_spritesheet-export_1: 1128139935
+      pipe_spritesheet-export_2: -1456314808
+      pipe_spritesheet-export_3: -1719901647
+      pipe_spritesheet-export_4: -1438932033
+      pipe_spritesheet-export_5: 1466129422
+      pipe_spritesheet-export_6: -25749868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

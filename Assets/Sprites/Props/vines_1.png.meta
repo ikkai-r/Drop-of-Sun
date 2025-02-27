@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dc3ef68002437484c843c90272c8284a
+guid: 772859b472942884e9eb8e21972c551c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6535191034683685667
-    second: env_1_v3_0
+      213: 2754450300286287840
+    second: vines_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: env_1_v3_0
+      name: vines_1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 3000
-        height: 5000
+        y: 149
+        width: 301
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd48c5ef0665e45a0800000000000000
-      internalID: -6535191034683685667
+      spriteID: 0ef380454f5c93620800000000000000
+      internalID: 2754450300286287840
       vertices: []
       indices: 
       edges: []
@@ -157,7 +157,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      env_1_v3_0: -6535191034683685667
+      vines_1_0: 2754450300286287840
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

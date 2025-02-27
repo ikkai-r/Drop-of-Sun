@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 72ac945d31dbda042a04807dc5a33292
+guid: 294038dfbf470fc49ae0b5ec2b58432a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6792826620851452354
-    second: shadow_cutscene-export-export_0
-  - first:
-      213: -5610252540394593446
-    second: shadow_cutscene-export-export_1
-  - first:
-      213: -5186608028941157470
-    second: shadow_cutscene-export-export_2
+      213: 7440981132975211316
+    second: wood_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -132,34 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: shadow_cutscene-export-export_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 19
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e360553ad280bb1a0800000000000000
-      internalID: -6792826620851452354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shadow_cutscene-export-export_1
+      name: wood_0
       rect:
         serializedVersion: 2
         x: 19
-        y: 19
-        width: 302
-        height: 282
+        y: 0
+        width: 301
+        height: 601
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,29 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a532c85f9016422b0800000000000000
-      internalID: -5610252540394593446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shadow_cutscene-export-export_2
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 19
-        width: 311
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2abf5cd3a777508b0800000000000000
-      internalID: -5186608028941157470
+      spriteID: 4330f5b9aeca34760800000000000000
+      internalID: 7440981132975211316
       vertices: []
       indices: 
       edges: []
@@ -205,9 +157,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      shadow_cutscene-export-export_0: -6792826620851452354
-      shadow_cutscene-export-export_1: -5610252540394593446
-      shadow_cutscene-export-export_2: -5186608028941157470
+      wood_0: 7440981132975211316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
