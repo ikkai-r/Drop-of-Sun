@@ -68,16 +68,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 558a8e2b6826cf840aae193990ba9f2e, type: 3}
   m_Name: ShadowsMidtonesHighlights
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   shadows:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {x: 1, y: 0.9157739, z: 0.88329226, w: 0}
   midtones:
     m_OverrideState: 1
     m_Value: {x: 0.8043875, y: 0.9421483, z: 1, w: 0}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.97389996, z: 0.8653939, w: 0}
+    m_Value: {x: 0.38943166, y: 0.6934718, z: 1, w: 1}
   shadowsStart:
     m_OverrideState: 1
     m_Value: 0

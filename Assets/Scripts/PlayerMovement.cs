@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public float movementSpeed;
     [SerializeField] public float jumpingSpeed;
     [SerializeField] public float maxJumpPressure;
-
+    [SerializeField] public AudioClip walkingClip;
     private Rigidbody2D rb;
     private Animator anim;
     private bool grounded;
@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     private bool isCharging;
     private float jumpPressure;
     private float minJump;
+    private AudioSource audioSource;
+      
 
     private void Start()
     {
@@ -27,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
         isCharging = false;
         jumpPressure = 0f;
         minJump = jumpingSpeed;
+        audioSource = GetComponent<AudioSource>();
+
     }
 
     void Update()
@@ -39,6 +43,10 @@ public class PlayerMovement : MonoBehaviour
         if(horizontalInput > 0.01f || horizontalInput < -0.01f)
         {
             isWalking = true;
+            if (!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(walkingClip);
+            }
         }
         else
         {
@@ -54,6 +62,7 @@ public class PlayerMovement : MonoBehaviour
       //flip
       if(grounded && !isJumping)
         {
+           
             if (horizontalInput > 0.01f)
             {
                 transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
