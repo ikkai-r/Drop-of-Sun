@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public float jumpingSpeed;
     [SerializeField] public float maxJumpPressure;
     [SerializeField] public AudioClip walkingClip;
+
+    [SerializeField] public InputActionReference moveActionToUse;
+
     private Rigidbody2D rb;
     private Animator anim;
     private bool grounded;
@@ -17,119 +21,99 @@ public class PlayerMovement : MonoBehaviour
     private float jumpPressure;
     private float minJump;
     private AudioSource audioSource;
-      
+
+    private Vector2 moveDirection; // Stores movement input
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
         grounded = true;
         isJumping = false;
         isWalking = false;
         isCharging = false;
         jumpPressure = 0f;
         minJump = jumpingSpeed;
-        audioSource = GetComponent<AudioSource>();
-
     }
 
-    void Update()
+    private void Update()
     {
-      float horizontalInput = Input.GetAxis("Horizontal");
-       Debug.Log(isJumping);
+        // Read joystick input
+        moveDirection = moveActionToUse.action.ReadValue<Vector2>();
 
-      //move
+        // Check if moving
+        isWalking = moveDirection.x != 0;
 
-        if(horizontalInput > 0.01f || horizontalInput < -0.01f)
+        // Play walking sound when moving on ground
+        if (isWalking && grounded && !audioSource.isPlaying)
         {
-            isWalking = true;
-            if (!audioSource.isPlaying)
-            {
-                audioSource.PlayOneShot(walkingClip);
-            }
-        }
-        else
-        {
-            isWalking = false;
+            audioSource.PlayOneShot(walkingClip);
         }
 
-        // if (grounded && !isJumping && !isCharging)
-        if (!isCharging)
+        // Flip character based on movement
+        if (grounded && !isJumping)
         {
-            rb.velocity = new Vector2(horizontalInput * movementSpeed, rb.velocity.y);
-        }
-
-      //flip
-      if(grounded && !isJumping)
-        {
-           
-            if (horizontalInput > 0.01f)
+            if (moveDirection.x > 0.01f)
             {
                 transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
             }
-            else if (horizontalInput < -0.01f)
+            else if (moveDirection.x < -0.01f)
             {
                 transform.localScale = new Vector3(-0.1f, 0.1f, 0.1f);
             }
         }
 
-        //jump
+        // Jumping logic (Hold joystick down to charge)
         if (grounded)
         {
-            //holding jump button
-            if (Input.GetKey(KeyCode.Space))
+            if (moveDirection.y < -0.5f) // Joystick pushed down
             {
                 isCharging = true;
-                if (jumpPressure < maxJumpPressure)
-                {
-                    jumpPressure += Time.deltaTime * 10f;
-                }
-                else
-                {
-                    jumpPressure = maxJumpPressure;
-                }
+                jumpPressure = Mathf.Min(jumpPressure + Time.deltaTime * 10f, maxJumpPressure);
             }
-            else
+            else if (isCharging && moveDirection.y >= 0) // Release joystick to jump
             {
-                isCharging = false;
-
-                if (jumpPressure > 0f)
-                {
-                    isJumping = true;
-                    grounded = false;
-                    jumpPressure = jumpPressure + minJump;
-
-                    rb.velocity = new Vector2(rb.velocity.x, jumpPressure);
-
-                    jumpPressure = 0f;
-                }
+                Jump();
             }
         }
 
-      //anim parameters
-      anim.SetBool("isWalking", horizontalInput != 0);
-      anim.SetBool("grounded", grounded);
-      anim.SetBool("isJumping", isJumping);
-      anim.SetBool("isCharging", isCharging);
-      anim.SetBool("isWalking", isWalking);
+        // Update animator parameters
+        anim.SetBool("isWalking", isWalking);
+        anim.SetBool("grounded", grounded);
+        anim.SetBool("isJumping", isJumping);
+        anim.SetBool("isCharging", isCharging);
     }
 
-     private void OnCollisionEnter2D(Collision2D collision) {
+    private void FixedUpdate()
+    {
+        // Apply movement in FixedUpdate
+        rb.velocity = new Vector2(moveDirection.x * movementSpeed, rb.velocity.y);
+    }
 
+    private void Jump()
+    {
+        isJumping = true;
+        grounded = false;
+        isCharging = false;
+
+        float jumpForce = jumpPressure + minJump; // Use accumulated jumpPressure
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+
+        jumpPressure = 0f; // Reset jumpPressure after applying force
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
         if (collision.gameObject.CompareTag("Ground"))
         {
             Vector2 contactPoint = collision.GetContact(0).point;
-
-            //below player
             if (contactPoint.y < transform.position.y)
             {
                 grounded = true;
                 isJumping = false;
                 isCharging = false;
-                isWalking = false;
             }
         }
-
     }
 }
-
